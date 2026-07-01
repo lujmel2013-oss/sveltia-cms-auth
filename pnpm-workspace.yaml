@@ -1,0 +1,13 @@
+allowBuilds:
+  esbuild: false
+  sharp: false
+  unrs-resolver: false
+  workerd: false
+
+engineStrict: true
+
+minimumReleaseAge: 1440
+
+# Work around https://github.com/sveltia/sveltia-cms-auth/issues/17
+packages:
+  - .
